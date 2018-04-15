@@ -12,4 +12,4 @@ add_executable(app
     src/kautodiff.c
 )
 
-target_link_libraries(app m SDL_gfx SDLmain SDL)
+target_link_libraries(app m SDLmain SDL)

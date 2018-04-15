@@ -5,6 +5,9 @@
 #include "kann.h"
 #include "kvec.h"
 
+#define WIDTH  320
+#define HEIGHT 320
+
 typedef struct ant_t* ant_t;
 typedef struct colony_t* colony_t;
 
