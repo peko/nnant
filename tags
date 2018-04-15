@@ -1,0 +1,341 @@
+AC_KVEC_H	src/kvec.h	49
+HEIGHT	src/main.c	10
+KAD_ALLOC	src/kautodiff.h	228
+KAD_BACKWARD	src/kautodiff.h	230
+KAD_CONST	src/kautodiff.h	49
+KAD_FORWARD	src/kautodiff.h	229
+KAD_FUNC_OP1	src/kautodiff.c	/^#define KAD_FUNC_OP1(fname, op) kad_node_t *fname(/
+KAD_FUNC_OP2	src/kautodiff.c	/^#define KAD_FUNC_OP2(fname, op) kad_node_t *fname(/
+KAD_FUNC_OP2	src/kautodiff.c	/^KAD_FUNC_OP2(kad_add, 1)$/
+KAD_MAX_DIM	src/kautodiff.h	39
+KAD_MAX_OP	src/kautodiff.h	40
+KAD_PAD_NONE	src/kautodiff.h	160
+KAD_PAD_SAME	src/kautodiff.h	161
+KAD_POOL	src/kautodiff.h	50
+KAD_SHARE_RNG	src/kautodiff.h	51
+KAD_SYNC_DIM	src/kautodiff.h	231
+KAD_VAR	src/kautodiff.h	48
+KAD_VERSION	src/kautodiff.h	30
+KANN_AUTODIFF_H	src/kautodiff.h	28
+KANN_C_CEB	src/kann.h	37
+KANN_C_CEB_NEG	src/kann.h	39
+KANN_C_CEM	src/kann.h	38
+KANN_C_MSE	src/kann.h	40
+KANN_F_COST	src/kann.h	35
+KANN_F_IN	src/kann.h	32
+KANN_F_OUT	src/kann.h	33
+KANN_F_TRUTH	src/kann.h	34
+KANN_H	src/kann.h	28
+KANN_MAGIC	src/kann.c	434
+KANN_RNN_NORM	src/kann.h	43
+KANN_RNN_VAR_H0	src/kann.h	42
+KANN_VERSION	src/kann.h	30
+Mmain	src/main.c	/^int main(int argc, char** argv) {$/
+WIDTH	src/main.c	9
+a	src/kann.c	268
+action	src/kann.c	270
+age	src/types.h	16
+ann	src/types.h	22
+ant_free	src/ant.c	/^void ant_free(ant_t ant) {$/
+ant_new	src/ant.c	/^ant_t ant_new(colony_t colony) {$/
+ant_set_pos	src/ant.c	/^void ant_set_pos(ant_t ant, int x, int y) {$/
+ant_t	src/types.h	8
+ant_t	src/types.h	11
+ant_t	src/types.h	13
+ant_t	src/types.h	18
+ant_update	src/ant.c	/^void ant_update(ant_t ant) {$/
+ants	src/types.h	21
+c	src/kann.h	50
+cal_grad	src/kann.c	277
+child	src/kautodiff.h	80
+chk_flg	src/kann.c	/^#define chk_flg(flag, mask) ((mask) == 0 || ((flag/
+chk_lbl	src/kann.c	/^#define chk_lbl(label, query) ((query) == 0 || (la/
+cmul_norm2	src/kann.c	/^static inline kad_node_t *cmul_norm2(int *offset, /
+colony	src/types.h	14
+colony_add_ant	src/colony.c	/^ant_t colony_add_ant(colony_t colony) {$/
+colony_draw	src/main.c	/^void colony_draw(SDL_Surface* screen, colony_t col/
+colony_free	src/colony.c	/^void colony_free(colony_t colony) {$/
+colony_new	src/colony.c	/^colony_t colony_new() {$/
+colony_t	src/types.h	9
+colony_t	src/types.h	20
+colony_t	src/types.h	23
+colony_update	src/colony.c	/^void colony_update(colony_t colony) {$/
+conv1d_add_2to1	src/kautodiff.c	/^static void conv1d_add_2to1(int d[3], const float /
+conv1d_gen_aux	src/kautodiff.c	/^static inline conv_conf_t *conv1d_gen_aux(int in_c/
+conv1d_loop1	src/kautodiff.c	/^#define conv1d_loop1(_x, _w, _y, _tmp, _row_func) /
+conv1d_loop2	src/kautodiff.c	/^#define conv1d_loop2(_x, _w, _y, _code) do { \/* fo/
+conv1d_move_1to2	src/kautodiff.c	/^static void conv1d_move_1to2(int d[3], const float/
+conv2d_add_3to1	src/kautodiff.c	/^static void conv2d_add_3to1(int d[4], const float /
+conv2d_gen_aux	src/kautodiff.c	/^static inline conv_conf_t *conv2d_gen_aux(int in_r/
+conv2d_loop1	src/kautodiff.c	/^#define conv2d_loop1(_x, _w, _y, _tmp, _row_func) /
+conv2d_loop2	src/kautodiff.c	/^#define conv2d_loop2(_x, _w, _y, _code) do { \/* fo/
+conv2d_move_1to3	src/kautodiff.c	/^static void conv2d_move_1to3(int d[4], const float/
+conv_conf_t	src/kautodiff.c	142
+conv_out_size	src/kautodiff.c	/^#define conv_out_size(in_size, aux) (((in_size) - /
+conv_rot180	src/kautodiff.c	/^static void conv_rot180(int d0, int d1, float *x) /
+cost	src/kann.c	269
+cost_label	src/kann.c	277
+cv	src/kann.c	280
+d	src/kautodiff.c	987
+d	src/kautodiff.h	73
+ext_flag	src/kautodiff.h	75
+ext_label	src/kautodiff.h	74
+flag	src/kautodiff.h	68
+g	src/kann.c	272
+g	src/kann.h	50
+g	src/kautodiff.h	77
+gtmp	src/kautodiff.h	79
+health	src/types.h	15
+i	src/kautodiff.c	987
+inline	src/kautodiff.h	36
+kad_add_delta	src/kautodiff.c	/^static void kad_add_delta(int n, kad_node_t **a, f/
+kad_allocate_internal	src/kautodiff.c	/^static void kad_allocate_internal(int n, kad_node_/
+kad_avg	src/kautodiff.c	/^kad_node_t *kad_avg(int n, kad_node_t **x)   { ret/
+kad_avg1d	src/kautodiff.c	/^kad_node_t *kad_avg1d(kad_node_t *x, int kernel_si/
+kad_check_grad	src/kautodiff.c	/^void kad_check_grad(int n, kad_node_t **a, int fro/
+kad_clone	src/kautodiff.c	/^kad_node_t **kad_clone(int n, kad_node_t **v, int /
+kad_compile	src/kautodiff.c	/^kad_node_t **kad_compile(int *n_node, int n_roots,/
+kad_compile_array	src/kautodiff.c	/^kad_node_t **kad_compile_array(int *n_node, int n_/
+kad_concat	src/kautodiff.c	/^kad_node_t *kad_concat(int axis, int n, ...)$/
+kad_concat_array	src/kautodiff.c	/^kad_node_t *kad_concat_array(int axis, int n, kad_/
+kad_const	src/kautodiff.c	/^kad_node_t *kad_const(float *x, int n_d, ...)$/
+kad_conv1d	src/kautodiff.c	/^kad_node_t *kad_conv1d(kad_node_t *x, kad_node_t */
+kad_conv2d	src/kautodiff.c	/^kad_node_t *kad_conv2d(kad_node_t *x, kad_node_t */
+kad_copy_dim1	src/kautodiff.c	/^static inline void kad_copy_dim1(kad_node_t *dst, /
+kad_delete	src/kautodiff.c	/^void kad_delete(int n, kad_node_t **a)$/
+kad_drand	src/kautodiff.c	/^double kad_drand(void *d)$/
+kad_drand_normal	src/kautodiff.c	/^double kad_drand_normal(void *d)$/
+kad_dropout	src/kautodiff.c	/^kad_node_t *kad_dropout(kad_node_t *x, kad_node_t /
+kad_dup1	src/kautodiff.c	/^static inline kad_node_t *kad_dup1(const kad_node_/
+kad_eval_at	src/kautodiff.c	/^const float *kad_eval_at(int n, kad_node_t **a, in/
+kad_eval_disable	src/kautodiff.h	/^#define kad_eval_disable(p) ((p)->tmp = -1)$/
+kad_eval_enable	src/kautodiff.h	/^#define kad_eval_enable(p) ((p)->tmp = 1)$/
+kad_eval_marked	src/kautodiff.c	/^void kad_eval_marked(int n, kad_node_t **a)$/
+kad_ext_collate	src/kann.c	/^static void kad_ext_collate(int n, kad_node_t **a,/
+kad_ext_sync	src/kann.c	/^static void kad_ext_sync(int n, kad_node_t **a, fl/
+kad_feed	src/kautodiff.c	/^kad_node_t *kad_feed(int n_d, ...)$/
+kad_finalize_node	src/kautodiff.c	/^static inline kad_node_t *kad_finalize_node(kad_no/
+kad_grad	src/kautodiff.c	/^void kad_grad(int n, kad_node_t **a, int from)$/
+kad_is_back	src/kautodiff.h	/^#define kad_is_back(p)  ((p)->flag & KAD_VAR)$/
+kad_is_const	src/kautodiff.h	/^#define kad_is_const(p) (kad_is_ext(p) && ((p)->fl/
+kad_is_ext	src/kautodiff.h	/^#define kad_is_ext(p)   ((p)->n_child == 0)$/
+kad_is_feed	src/kautodiff.h	/^#define kad_is_feed(p)  (kad_is_ext(p) && !kad_is_/
+kad_is_pivot	src/kautodiff.h	/^#define kad_is_pivot(p) ((p)->n_child == 1 && ((p)/
+kad_is_switch	src/kautodiff.h	/^#define kad_is_switch(p) ((p)->op == 12 && !((p)->/
+kad_is_var	src/kautodiff.h	/^#define kad_is_var(p)   (kad_is_ext(p) && kad_is_b/
+kad_len	src/kautodiff.h	/^static inline int kad_len(const kad_node_t *p) \/* /
+kad_load	src/kautodiff.c	/^kad_node_t **kad_load(FILE *fp, int *_n_node)$/
+kad_load1	src/kautodiff.c	/^static kad_node_t *kad_load1(FILE *fp, kad_node_t /
+kad_mark_back	src/kautodiff.c	/^static void kad_mark_back(int n, kad_node_t **v)$/
+kad_max	src/kautodiff.c	/^kad_node_t *kad_max(int n, kad_node_t **x)   { ret/
+kad_max1d	src/kautodiff.c	/^kad_node_t *kad_max1d(kad_node_t *x, int kernel_si/
+kad_max2d	src/kautodiff.c	/^kad_node_t *kad_max2d(kad_node_t *x, int kernel_r,/
+kad_n_pivots	src/kautodiff.c	/^int kad_n_pivots(int n_v, kad_node_t **v)$/
+kad_new_core	src/kautodiff.c	/^static inline kad_node_t *kad_new_core(int n_d, in/
+kad_node_p	src/kautodiff.h	82
+kad_node_t	src/kautodiff.h	66
+kad_op1_core	src/kautodiff.c	/^static inline kad_node_t *kad_op1_core(int op, kad/
+kad_op2_core	src/kautodiff.c	/^static inline kad_node_t *kad_op2_core(int op, kad/
+kad_op_1minus	src/kautodiff.c	/^int kad_op_1minus(kad_node_t *p, int action)$/
+kad_op_add	src/kautodiff.c	/^int kad_op_add(kad_node_t *p, int action)$/
+kad_op_avg	src/kautodiff.c	/^int kad_op_avg(kad_node_t *p, int action)$/
+kad_op_avg1d	src/kautodiff.c	/^int kad_op_avg1d(kad_node_t *p, int action)$/
+kad_op_ce_bin	src/kautodiff.c	/^int kad_op_ce_bin(kad_node_t *p, int action)$/
+kad_op_ce_bin_neg	src/kautodiff.c	/^int kad_op_ce_bin_neg(kad_node_t *p, int action)$/
+kad_op_ce_multi	src/kautodiff.c	/^int kad_op_ce_multi(kad_node_t *p, int action)$/
+kad_op_cmul	src/kautodiff.c	/^int kad_op_cmul(kad_node_t *p, int action)$/
+kad_op_concat	src/kautodiff.c	/^int kad_op_concat(kad_node_t *p, int action)$/
+kad_op_conv1d	src/kautodiff.c	/^int kad_op_conv1d(kad_node_t *p, int action) \/* in/
+kad_op_conv2d	src/kautodiff.c	/^int kad_op_conv2d(kad_node_t *p, int action) \/* in/
+kad_op_dropout	src/kautodiff.c	/^int kad_op_dropout(kad_node_t *p, int action)$/
+kad_op_exp	src/kautodiff.c	/^int kad_op_exp(kad_node_t *p, int action)$/
+kad_op_f	src/kautodiff.h	233
+kad_op_list	src/kautodiff.c	2239
+kad_op_log	src/kautodiff.c	/^int kad_op_log(kad_node_t *p, int action)$/
+kad_op_matmul	src/kautodiff.c	/^int kad_op_matmul(kad_node_t *p, int action) \/* TO/
+kad_op_max	src/kautodiff.c	/^int kad_op_max(kad_node_t *p, int action)$/
+kad_op_max1d	src/kautodiff.c	/^int kad_op_max1d(kad_node_t *p, int action)$/
+kad_op_max2d	src/kautodiff.c	/^int kad_op_max2d(kad_node_t *p, int action)$/
+kad_op_mse	src/kautodiff.c	/^int kad_op_mse(kad_node_t *p, int action)$/
+kad_op_mul	src/kautodiff.c	/^int kad_op_mul(kad_node_t *p, int action)$/
+kad_op_name	src/kautodiff.c	2279
+kad_op_reduce_mean	src/kautodiff.c	/^int kad_op_reduce_mean(kad_node_t *p, int action)$/
+kad_op_reduce_sum	src/kautodiff.c	/^int kad_op_reduce_sum(kad_node_t *p, int action)$/
+kad_op_relu	src/kautodiff.c	/^int kad_op_relu(kad_node_t *p, int action)$/
+kad_op_reshape	src/kautodiff.c	/^int kad_op_reshape(kad_node_t *p, int action)$/
+kad_op_reverse	src/kautodiff.c	/^int kad_op_reverse(kad_node_t *p, int action)$/
+kad_op_sample_normal	src/kautodiff.c	/^int kad_op_sample_normal(kad_node_t *p, int action/
+kad_op_select	src/kautodiff.c	/^int kad_op_select(kad_node_t *p, int action)$/
+kad_op_sigm	src/kautodiff.c	/^int kad_op_sigm(kad_node_t *p, int action)$/
+kad_op_sin	src/kautodiff.c	/^int kad_op_sin(kad_node_t *p, int action)$/
+kad_op_slice	src/kautodiff.c	/^int kad_op_slice(kad_node_t *p, int action)$/
+kad_op_softmax	src/kautodiff.c	/^int kad_op_softmax(kad_node_t *p, int action)$/
+kad_op_square	src/kautodiff.c	/^int kad_op_square(kad_node_t *p, int action)$/
+kad_op_stack	src/kautodiff.c	/^int kad_op_stack(kad_node_t *p, int action) \/* TOD/
+kad_op_stdnorm	src/kautodiff.c	/^int kad_op_stdnorm(kad_node_t *p, int action)$/
+kad_op_sub	src/kautodiff.c	/^int kad_op_sub(kad_node_t *p, int action)$/
+kad_op_tanh	src/kautodiff.c	/^int kad_op_tanh(kad_node_t *p, int action)$/
+kad_pooling_general	src/kautodiff.c	/^static kad_node_t *kad_pooling_general(int op, int/
+kad_print_graph	src/kautodiff.c	/^void kad_print_graph(FILE *fp, int n, kad_node_t */
+kad_propagate_marks	src/kautodiff.c	/^static void kad_propagate_marks(int n, kad_node_t /
+kad_rand	src/kautodiff.c	/^uint64_t kad_rand(void *d) { return kad_xoroshiro1/
+kad_reduce_general	src/kautodiff.c	/^static kad_node_t *kad_reduce_general(int op, kad_/
+kad_reduce_mean	src/kautodiff.c	/^kad_node_t *kad_reduce_mean(kad_node_t *x, int axi/
+kad_reduce_sum	src/kautodiff.c	/^kad_node_t *kad_reduce_sum(kad_node_t *x, int axis/
+kad_reshape	src/kautodiff.c	/^kad_node_t *kad_reshape(kad_node_t *x, int n_d, in/
+kad_reverse	src/kautodiff.c	/^kad_node_t *kad_reverse(kad_node_t *x, int axis)$/
+kad_rng	src/kautodiff.c	/^void *kad_rng(void)$/
+kad_rng_dat	src/kautodiff.c	931
+kad_rng_t	src/kautodiff.c	14
+kad_sample_normal	src/kautodiff.c	/^kad_node_t *kad_sample_normal(kad_node_t *x)$/
+kad_save	src/kautodiff.c	/^int kad_save(FILE *fp, int n_node, kad_node_t **no/
+kad_save1	src/kautodiff.c	/^static void kad_save1(FILE *fp, const kad_node_t */
+kad_saxpy	src/kautodiff.c	/^void kad_saxpy(int n, float a, const float *x, flo/
+kad_saxpy_inlined	src/kautodiff.c	/^static inline void kad_saxpy_inlined(int n, float /
+kad_saxpy_inlined	src/kautodiff.c	/^static inline void kad_saxpy_inlined(int n, float /
+kad_sdot	src/kautodiff.c	/^static inline float kad_sdot(int n, const float *x/
+kad_sdot	src/kautodiff.c	/^static inline float kad_sdot(int n, const float *x/
+kad_select	src/kautodiff.c	/^kad_node_t *kad_select(int n, kad_node_t **x, int /
+kad_sgemm_simple	src/kautodiff.c	/^void kad_sgemm_simple(int trans_A, int trans_B, in/
+kad_sgemm_simple	src/kautodiff.c	/^void kad_sgemm_simple(int trans_A, int trans_B, in/
+kad_size_const	src/kautodiff.c	/^int kad_size_const(int n, kad_node_t *const* v)$/
+kad_size_var	src/kautodiff.c	/^int kad_size_var(int n, kad_node_t *const* v)$/
+kad_slice	src/kautodiff.c	/^kad_node_t *kad_slice(kad_node_t *x, int axis, int/
+kad_splitmix64	src/kautodiff.c	/^static inline uint64_t kad_splitmix64(uint64_t x)$/
+kad_srand	src/kautodiff.c	/^void kad_srand(void *d, uint64_t seed)$/
+kad_stack	src/kautodiff.c	/^kad_node_t *kad_stack(int n, kad_node_t **x) { ret/
+kad_switch	src/kautodiff.c	/^kad_node_t *kad_switch(int n, kad_node_t **p)$/
+kad_sync_dim	src/kautodiff.c	/^int kad_sync_dim(int n, kad_node_t **v, int batch_/
+kad_trap_fe	src/kautodiff.c	/^void kad_trap_fe(void)$/
+kad_unroll	src/kautodiff.c	/^kad_node_t **kad_unroll(int n_v, kad_node_t **v, i/
+kad_unroll_helper	src/kautodiff.c	/^static void kad_unroll_helper(int n_v, kad_node_t /
+kad_use_rng	src/kautodiff.h	/^#define kad_use_rng(p)  ((p)->op == 15 || (p)->op /
+kad_var	src/kautodiff.c	/^kad_node_t *kad_var(float *x, float *g, int n_d, ./
+kad_vec_mul_sum	src/kautodiff.c	/^void kad_vec_mul_sum(int n, float *a, const float /
+kad_vleaf	src/kautodiff.c	/^static inline kad_node_t *kad_vleaf(uint8_t flag, /
+kad_xoroshiro128plus_jump	src/kautodiff.c	/^static inline void kad_xoroshiro128plus_jump(kad_r/
+kad_xoroshiro128plus_next	src/kautodiff.c	/^static inline uint64_t kad_xoroshiro128plus_next(k/
+kann_RMSprop	src/kann.c	/^void kann_RMSprop(int n, float h0, const float *h,/
+kann_RMSprop	src/kann.c	/^void kann_RMSprop(int n, float h0, const float *h,/
+kann_apply1	src/kann.c	/^const float *kann_apply1(kann_t *a, float *x)$/
+kann_class_error	src/kann.c	/^int kann_class_error(const kann_t *ann, int *base)/
+kann_class_error	src/kann.c	/^int kann_class_error(const kann_t *a, int *base) {/
+kann_class_error_core	src/kann.c	/^static int kann_class_error_core(const kann_t *ann/
+kann_clone	src/kann.c	/^kann_t *kann_clone(kann_t *a, int batch_size)$/
+kann_cmul_norm	src/kann.c	/^static kad_node_t *kann_cmul_norm(kad_node_t *x, k/
+kann_cost	src/kann.c	/^float kann_cost(kann_t *a, int cost_label, int cal/
+kann_cost	src/kann.c	/^float kann_cost(kann_t *a, int cost_label, int cal/
+kann_cost_core	src/kann.c	/^static float kann_cost_core(kann_t *a, int cost_la/
+kann_cost_fnn1	src/kann.c	/^float kann_cost_fnn1(kann_t *ann, int n, float **x/
+kann_delete	src/kann.c	/^void kann_delete(kann_t *a)$/
+kann_delete_unrolled	src/kann.c	/^void kann_delete_unrolled(kann_t *a)$/
+kann_dim_in	src/kann.h	/^#define kann_dim_in(a) kann_feed_dim((a), KANN_F_I/
+kann_dim_out	src/kann.h	/^#define kann_dim_out(a) kann_feed_dim((a), KANN_F_/
+kann_drand	src/kann.h	/^#define kann_drand() kad_drand(0)$/
+kann_eval	src/kann.c	/^int kann_eval(kann_t *a, uint32_t ext_flag, int ex/
+kann_feed_bind	src/kann.c	/^int kann_feed_bind(kann_t *a, uint32_t ext_flag, i/
+kann_feed_dim	src/kann.c	/^int kann_feed_dim(const kann_t *a, uint32_t ext_fl/
+kann_find	src/kann.c	/^int kann_find(const kann_t *a, uint32_t ext_flag, /
+kann_grad_clip	src/kann.c	/^float kann_grad_clip(float thres, int n, float *g)/
+kann_layer_conv1d	src/kann.c	/^kad_node_t *kann_layer_conv1d(kad_node_t *in, int /
+kann_layer_conv2d	src/kann.c	/^kad_node_t *kann_layer_conv2d(kad_node_t *in, int /
+kann_layer_cost	src/kann.c	/^kad_node_t *kann_layer_cost(kad_node_t *t, int n_o/
+kann_layer_dense	src/kann.c	/^kad_node_t *kann_layer_dense(kad_node_t *in, int n/
+kann_layer_dense2	src/kann.c	/^kad_node_t *kann_layer_dense2(int *offset, kad_nod/
+kann_layer_dropout	src/kann.c	/^kad_node_t *kann_layer_dropout(kad_node_t *t, floa/
+kann_layer_dropout2	src/kann.c	/^kad_node_t *kann_layer_dropout2(int *offset, kad_n/
+kann_layer_gru	src/kann.c	/^kad_node_t *kann_layer_gru(kad_node_t *in, int n1,/
+kann_layer_gru2	src/kann.c	/^kad_node_t *kann_layer_gru2(int *offset, kad_node_/
+kann_layer_input	src/kann.c	/^kad_node_t *kann_layer_input(int n1)$/
+kann_layer_layernorm	src/kann.c	/^kad_node_t *kann_layer_layernorm(kad_node_t *in) {/
+kann_layer_layernorm2	src/kann.c	/^kad_node_t *kann_layer_layernorm2(int *offset, kad/
+kann_layer_lstm	src/kann.c	/^kad_node_t *kann_layer_lstm(kad_node_t *in, int n1/
+kann_layer_rnn	src/kann.c	/^kad_node_t *kann_layer_rnn(kad_node_t *in, int n1,/
+kann_layer_rnn2	src/kann.c	/^kad_node_t *kann_layer_rnn2(int *offset, kad_node_/
+kann_load	src/kann.c	/^kann_t *kann_load(const char *fn)$/
+kann_load_fp	src/kann.c	/^kann_t *kann_load_fp(FILE *fp)$/
+kann_mt	src/kann.c	/^void kann_mt(kann_t *ann, int n_threads, int max_b/
+kann_mt	src/kann.c	/^void kann_mt(kann_t *ann, int n_threads, int max_b/
+kann_new	src/kann.c	/^kann_t *kann_new(kad_node_t *cost, int n_rest, .../
+kann_new_bias	src/kann.c	/^kad_node_t *kann_new_bias(int n) { return kann_new/
+kann_new_leaf	src/kann.c	/^kad_node_t *kann_new_leaf(uint8_t flag, float x0_0/
+kann_new_leaf2	src/kann.c	/^kad_node_t *kann_new_leaf2(int *offset, kad_node_p/
+kann_new_leaf_array	src/kann.c	/^kad_node_t *kann_new_leaf_array(int *offset, kad_n/
+kann_new_scalar	src/kann.c	/^kad_node_t *kann_new_scalar(uint8_t flag, float x)/
+kann_new_vec	src/kann.c	/^kad_node_t *kann_new_vec(int n, float x) { return /
+kann_new_weight	src/kann.c	/^kad_node_t *kann_new_weight(int n_row, int n_col) /
+kann_new_weight_conv1d	src/kann.c	/^kad_node_t *kann_new_weight_conv1d(int n_out, int /
+kann_new_weight_conv2d	src/kann.c	/^kad_node_t *kann_new_weight_conv2d(int n_out, int /
+kann_rnn_end	src/kann.c	/^void kann_rnn_end(kann_t *a)$/
+kann_rnn_start	src/kann.c	/^void kann_rnn_start(kann_t *a)$/
+kann_save	src/kann.c	/^void kann_save(const char *fn, kann_t *ann)$/
+kann_save_fp	src/kann.c	/^void kann_save_fp(FILE *fp, kann_t *ann)$/
+kann_set_batch_size	src/kann.h	/^#define kann_set_batch_size(ann, B) kad_sync_dim((/
+kann_shuffle	src/kann.c	/^void kann_shuffle(int n, int *s)$/
+kann_size_const	src/kann.h	/^#define kann_size_const(a) kad_size_const((a)->n, /
+kann_size_var	src/kann.h	/^#define kann_size_var(a) kad_size_var((a)->n, (a)-/
+kann_srand	src/kann.h	/^#define kann_srand(seed) kad_srand(0, (seed))$/
+kann_switch	src/kann.c	/^void kann_switch(kann_t *ann, int is_train)$/
+kann_switch	src/kann.c	/^void kann_switch(kann_t *ann, int is_train) { retu/
+kann_switch_core	src/kann.c	/^static void kann_switch_core(kann_t *a, int is_tra/
+kann_t	src/kann.h	52
+kann_train_fnn1	src/kann.c	/^int kann_train_fnn1(kann_t *ann, float lr, int min/
+kann_unroll	src/kann.c	/^kann_t *kann_unroll(kann_t *a, ...)$/
+kann_unroll_array	src/kann.c	/^kann_t *kann_unroll_array(kann_t *a, int *len)$/
+kann_verbose	src/kann.c	9
+kernel_size	src/kautodiff.c	141
+kv_A	src/kvec.h	/^#define kv_A(v, i) ((v).a[(i)])$/
+kv_a	src/kvec.h	/^#define kv_a(type, v, i) (((v).m <= (size_t)(i)? \\/
+kv_copy	src/kvec.h	/^#define kv_copy(type, v1, v0) do {							\\$/
+kv_destroy	src/kvec.h	/^#define kv_destroy(v) free((v).a)$/
+kv_init	src/kvec.h	/^#define kv_init(v) ((v).n = (v).m = 0, (v).a = 0)$/
+kv_max	src/kvec.h	/^#define kv_max(v) ((v).m)$/
+kv_pop	src/kautodiff.c	/^#define kv_pop(v) ((v).a[--(v).n])$/
+kv_pop	src/kvec.h	/^#define kv_pop(v) ((v).a[--(v).n])$/
+kv_push	src/kautodiff.c	/^#define kv_push(type, v, x) do { \\$/
+kv_push	src/kvec.h	/^#define kv_push(type, v, x) do {									\\$/
+kv_pushp	src/kvec.h	/^#define kv_pushp(type, v) (((v).n == (v).m)?						/
+kv_resize	src/kvec.h	/^#define kv_resize(type, v, s)  ((v).m = (s), (v).a/
+kv_roundup32	src/kvec.h	/^#define kv_roundup32(x) (--(x), (x)|=(x)>>1, (x)|=/
+kv_size	src/kvec.h	/^#define kv_size(v) ((v).n)$/
+kvec_t	src/kautodiff.c	/^#define kvec_t(type) struct { size_t n, m; type *a/
+kvec_t	src/kvec.h	/^#define kvec_t(type) struct { size_t n, m; type *a/
+lock	src/kautodiff.c	13
+m	src/kautodiff.c	719
+max_batch_size	src/kann.c	276
+mt	src/kann.c	281
+mt	src/kann.h	51
+mt_destroy	src/kann.c	/^static void mt_destroy(mtaux_t *mt) \/* de-allocate/
+mt_worker	src/kann.c	/^static void *mt_worker(void *data) \/* pthread work/
+mtaux1_t	src/kann.c	273
+mtaux_t	src/kann.c	275
+mtaux_t	src/kann.c	282
+mtx	src/kann.c	279
+n	src/kann.h	48
+n	src/kautodiff.c	719
+n_child	src/kautodiff.h	70
+n_d	src/kautodiff.h	67
+n_gset	src/kautodiff.c	11
+n_idle	src/kann.c	278
+n_iset	src/kautodiff.c	12
+n_threads	src/kann.c	276
+nodes_t	src/kautodiff.c	721
+op	src/kautodiff.h	69
+pad	src/kautodiff.c	141
+pre	src/kautodiff.h	81
+process_row_back_w	src/kautodiff.c	/^#define process_row_back_w(_xx, _ww, _yy, _wn, _pn/
+process_row_back_x	src/kautodiff.c	/^#define process_row_back_x(_xx, _ww, _yy, _wn, _pn/
+process_row_for	src/kautodiff.c	/^#define process_row_for(_xx, _ww, _yy, _wn, _pn, _/
+ptr	src/kautodiff.h	78
+ptr_size	src/kautodiff.h	72
+push_nodes	src/kautodiff.c	/^static inline void push_nodes(nodes_t *w, kad_node/
+s	src/kautodiff.c	10
+stride	src/kautodiff.c	141
+tid	src/kann.c	271
+tmp	src/kautodiff.h	71
+v	src/kann.h	49
+v	src/kautodiff.c	720
+x	src/kann.h	50
+x	src/kautodiff.h	76
+x	src/types.h	17
+y	src/types.h	17
