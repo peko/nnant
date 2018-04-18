@@ -1,5 +1,11 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/c37967d5/
 AC_KVEC_H	src/kvec.h	49
-HEIGHT	src/main.c	10
 KAD_ALLOC	src/kautodiff.h	228
 KAD_BACKWARD	src/kautodiff.h	230
 KAD_CONST	src/kautodiff.h	49
@@ -30,8 +36,6 @@ KANN_MAGIC	src/kann.c	434
 KANN_RNN_NORM	src/kann.h	43
 KANN_RNN_VAR_H0	src/kann.h	42
 KANN_VERSION	src/kann.h	30
-Mmain	src/main.c	/^int main(int argc, char** argv) {$/
-WIDTH	src/main.c	9
 a	src/kann.c	268
 action	src/kann.c	270
 age	src/types.h	16
@@ -53,7 +57,6 @@ chk_lbl	src/kann.c	/^#define chk_lbl(label, query) ((query) == 0 || (la/
 cmul_norm2	src/kann.c	/^static inline kad_node_t *cmul_norm2(int *offset, /
 colony	src/types.h	14
 colony_add_ant	src/colony.c	/^ant_t colony_add_ant(colony_t colony) {$/
-colony_draw	src/main.c	/^void colony_draw(SDL_Surface* screen, colony_t col/
 colony_free	src/colony.c	/^void colony_free(colony_t colony) {$/
 colony_new	src/colony.c	/^colony_t colony_new() {$/
 colony_t	src/types.h	9
@@ -302,6 +305,7 @@ kvec_t	src/kautodiff.c	/^#define kvec_t(type) struct { size_t n, m; type *a/
 kvec_t	src/kvec.h	/^#define kvec_t(type) struct { size_t n, m; type *a/
 lock	src/kautodiff.c	13
 m	src/kautodiff.c	719
+main	src/main.c	/^int main(int argc, char** argv) {$/;"	f	typeref:typename:int
 max_batch_size	src/kann.c	276
 mt	src/kann.c	281
 mt	src/kann.h	51

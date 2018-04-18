@@ -2,8 +2,8 @@
 
 #include "types.h"
 
-colony_t colony_new();
-void     colony_free(colony_t colony);
+colony_p colony_new();
+void     colony_free(colony_p colony);
 
-ant_t colony_add_ant(colony_t colony);
-void colony_update(colony_t colony, unsigned char* world);
+ant_p colony_add_ant(colony_p colony);
+void colony_update(colony_p colony, unsigned char* world);
